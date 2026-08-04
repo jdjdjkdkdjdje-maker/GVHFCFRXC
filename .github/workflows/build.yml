@@ -17,7 +17,7 @@ jobs:
           channel: 'stable'
 
       - name: Generate missing platform folders
-      run: flutter create --platforms=android --project-name=uzum_tezkor_customer .
+      run: flutter create --platforms=android
         
 
       - name: Get dependencies
